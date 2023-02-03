@@ -74,7 +74,6 @@ Delete the CloudFormation stack by running the below command.
 
 <pre>
 (.venv) $ cdk destroy --force \
-              -c vpc_name='<i>your-existing-vpc-name</i>' \
               -c aws_secret_name=<i>your_redshift_secret_name</i>
 </pre>
 

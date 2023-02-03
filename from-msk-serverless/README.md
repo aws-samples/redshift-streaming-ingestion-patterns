@@ -45,7 +45,6 @@ At this point you can now synthesize the CloudFormation template for this code.
 (.venv) $ export CDK_DEFAULT_ACCOUNT=$(aws sts get-caller-identity --query Account --output text)
 (.venv) $ export CDK_DEFAULT_REGION=$(curl -s 169.254.169.254/latest/dynamic/instance-identity/document | jq -r .region)
 (.venv) $ cdk synth \
-              -c vpc_name='<i>your-existing-vpc-name</i>' \
               -c aws_secret_name='<i>your_redshift_secret_name</i>'
 </pre>
 
@@ -62,7 +61,6 @@ Use `cdk deploy` command to create the stack shown above.
 
 <pre>
 (.venv) $ cdk deploy \
-              -c vpc_name='<i>your-existing-vpc-name</i>' \
               -c aws_secret_name='<i>your_redshift_secret_name</i>'
 </pre>
 
@@ -76,7 +74,6 @@ Delete the CloudFormation stack by running the below command.
 
 <pre>
 (.venv) $ cdk destroy --force \
-              -c vpc_name='<i>your-existing-vpc-name</i>' \
               -c aws_secret_name='<i>your_redshift_secret_name</i>'
 </pre>
 
