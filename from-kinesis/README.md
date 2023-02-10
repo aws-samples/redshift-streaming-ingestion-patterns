@@ -169,6 +169,6 @@ These steps show you how to configure the materialized view to ingest data.
  * [Amazon Redshift - Electric vehicle station-data streaming ingestion tutorial, using Kinesis](https://docs.aws.amazon.com/redshift/latest/dg/materialized-view-streaming-ingestion-example-station-data.html)
  * [Amazon Redshift Configuration Reference - enable_case_sensitive_identifier](https://docs.aws.amazon.com/redshift/latest/dg/r_enable_case_sensitive_identifier.html)
  * [Real-time analytics with Amazon Redshift streaming ingestion (2022-04-27)](https://aws.amazon.com/ko/blogs/big-data/real-time-analytics-with-amazon-redshift-streaming-ingestion/)
-  ![](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2022/04/14/BDB-2193-image001.png)
+  ![amazon-redshift-streaming-ingestion](https://d2908q01vomqb2.cloudfront.net/b6692ea5df920cad691c20319a6fffd7a4a766b8/2022/04/14/BDB-2193-image001.png)
  * [Mimesis: Fake Data Generator](https://mimesis.name/en/latest/index.html) - Mimesis is a high-performance fake data generator for Python, which provides data for a variety of purposes in a variety of languages
 
